@@ -1,0 +1,1 @@
+This repository demonstrates an example of undefined behavior in Rust. The code attempts to modify a vector using a raw pointer obtained from a mutable borrow, but this is unsafe after the borrow ends. The solution shows a safe way to perform similar operations using references or borrowing.
